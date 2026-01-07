@@ -1,0 +1,16 @@
+# Build artifacts
+/build/
+/CMakeFiles/
+/cmake-build-*/
+
+# CMake generated files
+/CMakeCache.txt
+/compile_commands.json
+/cmake_install.cmake
+/build.ninja
+/rules.ninja
+
+# Qt Creator user settings
+CMakeLists.txt.user
+*.user
+*.user.*
