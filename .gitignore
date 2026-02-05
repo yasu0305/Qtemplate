@@ -3,11 +3,16 @@
 /CMakeFiles/
 /cmake-build-*/
 
-# CMake generated files
-/CMakeCache.txt
-/compile_commands.json
-/cmake_install.cmake
-/build.ninja
+# Qt build outputs
+Makefile
+Makefile.*
+moc_*.cpp
+ui_*.h
+.qmake.stash
+*.o
+*.a
+*.so
+
 /rules.ninja
 
 # Qt Creator user settings

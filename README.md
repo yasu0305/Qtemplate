@@ -11,24 +11,24 @@ Qt C++ アプリケーションのテンプレートプロジェクトです。
 ## 環境
 
 - Qt 6
-- CMake 3.5 以上
-- C++11 以上
+- qmake
+- C++17 以上
 
 ## ビルド方法
 
 ### 初回セットアップ
 ```bash
-cmake -S . -B build
+qmake
 ```
 
 ### ビルド
 ```bash
-cmake --build build
+make
 ```
 
 ### 実行
 ```bash
-./build/Qtemplate
+./Qtemplate
 ```
 
 ## 開発環境
@@ -46,7 +46,7 @@ cmake --build build
 - `main.cpp` - アプリケーションエントリポイント
 - `mainwindow.h/cpp` - メインウィンドウクラス
 - `mainwindow.ui` - Qt Designer UI ファイル
-- `CMakeLists.txt` - CMake ビルド設定
+- `qtemplate.pro` - qmake ビルド設定
 - `.vscode/` - VS Code デバッグ・ビルド設定
 
 ## ライセンス

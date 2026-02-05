@@ -27,4 +27,3 @@ void MainWindow::updateTimeLabel()
     const QString formatted = now.toString("yyyy/MM/dd HH:mm:ss");
     ui->timeLabel->setText(formatted);
 }
-
